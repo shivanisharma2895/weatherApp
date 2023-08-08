@@ -1,13 +1,35 @@
 .weather {
   background: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/BKaAXTX/weather-radar-background_qyq32whr_thumbnail-1080_01.png");
-  height: 50vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .heading {
   color: white;
   font-weight: 700;
+}
+
+.weatherResultBox {
+  margin: auto;
+  width: 500px;
+  height: 300px;
+
+}
+
+.weatherCity {
+  font-size: 35px;
+}
+
+.weatherTemp {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+
+.result {
+  color: white;
 }
